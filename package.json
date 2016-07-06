@@ -1,0 +1,31 @@
+{
+  "name": "caf",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "engines": {
+    "node": "4.x"
+  },
+  "scripts": {
+    "start": "node --harmony server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xingrz/caf.git"
+  },
+  "author": "XiNGRZ <chenxingyu92@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xingrz/caf/issues"
+  },
+  "homepage": "https://github.com/xingrz/caf#readme",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "express": "^4.14.0",
+    "leanengine": "^0.4.2",
+    "lodash": "^4.13.1",
+    "moment": "^2.14.1",
+    "pug": "^2.0.0-beta3",
+    "request-promise": "^3.0.0"
+  }
+}
